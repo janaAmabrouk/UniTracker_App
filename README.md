@@ -60,7 +60,7 @@ This project was brought to life by a dedicated team of students. We collaborate
 
 ## 📜 Project Documentation
 
-This repository contains the complete graduation project documentation [`UniTracker Document.pdf`](UniTracker-Document.pdf), which includes:
+This repository contains the complete graduation project documentation [`UniTracker Document.pdf`](docs/UniTracker-Document.pdf), which includes:
 *   In-depth Project Proposal & Feasibility Study
 *   System Analysis & Design (DFDs, Use Cases, ERDs)
 *   UML Class Diagrams & Storyboards
