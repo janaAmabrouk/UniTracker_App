@@ -1,0 +1,48 @@
+CREATE OR REPLACE FUNCTION public.changepassword(
+    current_plain_password text,
+    new_plain_password text
+)
+RETURNS text
+LANGUAGE plpgsql
+SECURITY DEFINER
+AS $$
+DECLARE
+    user_id uuid;
+    stored_encrypted_password text;
+BEGIN
+    -- Get the ID of the current authenticated user
+    user_id := auth.uid();
+    RAISE NOTICE 'DEBUG: User ID from auth.uid(): %', user_id;
+    RAISE NOTICE 'DEBUG: Received current_plain_password: %', current_plain_password;
+
+    -- Retrieve the stored encrypted password for the current user
+    SELECT encrypted_password
+    INTO stored_encrypted_password
+    FROM auth.users
+    WHERE id = user_id;
+
+    RAISE NOTICE 'DEBUG: Stored encrypted_password for user %: %', user_id, stored_encrypted_password;
+
+    -- Check if the current_plain_password matches the stored encrypted_password
+    IF stored_encrypted_password IS NULL THEN
+        RAISE NOTICE 'DEBUG: Stored encrypted password is NULL.';
+        RETURN 'Current password is incorrect';
+    ELSIF stored_encrypted_password != crypt(current_plain_password, stored_encrypted_password) THEN
+        RAISE NOTICE 'DEBUG: Current plain password does NOT match stored encrypted password.';
+        RETURN 'Current password is incorrect';
+    END IF;
+
+    RAISE NOTICE 'DEBUG: Current plain password MATCHES stored encrypted password. Proceeding to update.';
+
+    -- If the current password is correct, update the new password
+    UPDATE auth.users
+    SET encrypted_password = crypt(new_plain_password, gen_salt('bf'))
+    WHERE id = user_id;
+
+    RETURN 'Password updated successfully';
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE NOTICE 'DEBUG: Exception caught: %', SQLERRM;
+        RETURN 'Failed to change password: ' || SQLERRM;
+END;
+$$; 
