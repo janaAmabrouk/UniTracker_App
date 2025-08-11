@@ -40,8 +40,6 @@ We chose a modern and efficient technology stack to build UniTracker:
 
  ## 🎨 Screenshots
 
-***Note: To add your images, create an `images` folder in your repository, upload your screenshots to it, and then replace the paths below.***
-
 | Student App - Home | Student App - Schedules | Admin Dashboard |
 | :----------------: | :---------------------: | :---------------: |
 |  ![Student Home](images/student_home.png)  | ![Student Schedules](images/student_schedules.png) |  ![Admin Dashboard](images/admin_dashboard.png)   |
