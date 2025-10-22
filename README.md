@@ -41,11 +41,11 @@ We chose a modern and efficient technology stack to build UniTracker:
 
  ## 🎨 UI Manual
 
-| Student App - Home | Student App - Schedules | Admin Dashboard |
+| Student App - Home | Student App - Schedules | **Student Profile** |
 | :----------------: | :---------------------: | :---------------: |
-|  ![Student Home](images/student_home.jpg)  | ![Student Schedules](images/student_schedules.jpg) |  ![Admin Dashboard](images/admin_dashboard.png)   |
-|   **Driver App**   |   **Student Profile**   | **Route Management** |
-|   ![Driver App](images/driver_app.jpg)   |   ![Student Profile](images/student_profile.jpg)   | ![Route Management](images/route_management.png) |
+|  ![Student Home](images/student_home.jpg)  | ![Student Schedules](images/student_schedules.jpg) | ![Student Profile](images/student_profile.jpg) |
+|   **Driver App**   |   **Admin Dashboard**   | **Route Management** |
+|   ![Driver App](images/driver_app.jpg)   |   ![Admin Dashboard](images/admin_dashboard.png)    | ![Route Management](images/route_management.png) |
 
 ## 👥 Our Team
 
