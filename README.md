@@ -1,6 +1,6 @@
 # UniTracker - Smart University Transportation Management System
 
-Welcome to the official repository for **UniTracker**, a comprehensive university transportation management platform designed to modernize and optimize campus shuttle services. In Memory of Dr. Reem Bahgat
+Welcome to the official repository for **UniTracker**, a comprehensive university transportation management platform designed to modernize and optimize campus shuttle services. In Memory of **Dr. Reem Bahgat**
 "President of Egypt University of Informatics", this was developed as our graduation project for the Faculty of Business Informatics at Egypt University of Informatics.
 
 ## 🚀 The Problem
