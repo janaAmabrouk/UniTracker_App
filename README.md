@@ -38,7 +38,7 @@ We chose a modern and efficient technology stack to build UniTracker:
 *   **Design & Prototyping:**
     *   ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
- ## 🎨 Screenshots
+ ## 🎨 UI Manual
 
 | Student App - Home | Student App - Schedules | Admin Dashboard |
 | :----------------: | :---------------------: | :---------------: |
