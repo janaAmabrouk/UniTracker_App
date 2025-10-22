@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Replace the text below with your actual Google Maps API key from Google Cloud Console
-         Example: <string name="google_maps_key">AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg</string>
-         Make sure to restrict this key in the Google Cloud Console to your app's package name -->
-    <string name="google_maps_key">AIzaSyBrsMZk0tAIpmjIjyhAZdPZAdEGvCmS_Lw</string>
-</resources> 
