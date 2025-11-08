@@ -55,7 +55,7 @@ We chose a modern and efficient technology stack to build UniTracker:
 
 This project was brought to life by a dedicated team of students. We collaborated on all phases of the project, from conception and design to development and testing.
 
-*   **Jana Ahmed** - [LinkedIn Profile](www.linkedin.com/in/jana-ahmed02)
+*   **Jana Ahmed** - [LinkedIn Profile](https://www.linkedin.com/in/jana-ahmed02/)
 *   **Maya Yakout** - [LinkedIn Profile](www.linkedin.com/in/maya-yakout)
 *   **Christine Nagy** - [LinkedIn Profile](www.linkedin.com/in/christine-nagy-71a31828b)
 *   **Zeina Sherif**
